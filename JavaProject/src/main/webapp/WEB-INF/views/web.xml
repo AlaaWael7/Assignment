@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>BigPipeServlet</servlet-name>
+        <!-- Update the servlet-class with the correct package structure -->
+        <servlet-class>example.com.BigPipeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BigPipeServlet</servlet-name>
+        <url-pattern>/bigpipe</url-pattern>
+    </servlet-mapping>
+
+</web-app>
